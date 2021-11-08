@@ -29,7 +29,7 @@ namespace Masny.Lesson13.Logic.Tests
             // Arrange
             var testCustomerName = "TestCustomerName";
             var testBalance = 10.01;
-            var amount = 10D;
+            var amount = 0D;
 
             var bankAccount = new BankAccount(testCustomerName, testBalance);
 

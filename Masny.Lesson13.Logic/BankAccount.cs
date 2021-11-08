@@ -40,7 +40,7 @@ namespace Masny.Lesson13.Logic
                 throw new ArgumentOutOfRangeException("amount");
             }
 
-            if (amount < 0)
+            if (amount <= 0)
             {
                 throw new ArgumentOutOfRangeException("amount");
             }
